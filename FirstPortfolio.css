@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+.topaside {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(150, 150, 150, 0.2);
+    padding: 0 80px;
+}
+
+.topaside>div>img {
+    width: 55px;
+    height: 45px;
+}
+
+.topaside>div>h3 {
+    color: white;
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.dottop {
+    color: rgb(255, 115, 0);
+    font-size: 25px;
+}
+
+
+.topaside>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topaside-work>a {
+    text-decoration: none;
+    color: rgb(161, 160, 160);
+    font-size: 20px;
+    margin: 0 25px;
+
+
+}
+
+.topaside-work>a:hover {
+    border-bottom: 2px solid rgb(161, 160, 160);
+}
+
+
+.lettalk {
+    border: 2px solid rgb(255, 115, 0);
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.lettalk:hover {
+    background-color: rgb(255, 115, 0);
+    color: black;
+    cursor: pointer;
+}
+
+.topheader {
+    padding-top: 160px;
+    padding-left: 80px;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 900px;
+
+}
+
+.topheader>div>h1 {
+    color: white;
+    line-height: 120px;
+    font-size: 140px;
+    width: 25%;
+}
+
+.topheader>div>p {
+    color: rgb(161, 160, 160);
+    padding-top: 20px;
+
+}
+
+.topheader>div {
+    width: 50%;
+}
+
+.headcontent {
+
+    position: relative;
+    width: 50%;
+}
+
+
+.headcontent>h4 {
+    font-size: 30px;
+    width: 38%;
+    height: 150px;
+    color: white;
+}
+
+.headcontent>span {
+    font-size: 150px;
+    font-weight: bold;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    right: 115px;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 10px;
+    top: 220px;
+    z-index: 10;
+}
+
+#arrows {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 50%;
+    top: 20px;
+
+}
+
+#picture1 {
+    border-right: 145px solid rgb(255, 115, 0);
+    height: 1000px;
+}
+
+
+.scrolldown:hover {
+
+    border: 2px solid rgb(255, 115, 0);
+
+}
+
+.buttonscrolldown {
+    width: 1px;
+    height: 1px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.scrolldown {
+    background-color: black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -60px;
+    left: 80vh;
+    z-index: 5;
+}
+
+
+.scrolldown>span {
+
+    color: rgb(255, 115, 0);
+
+}
+
+.scrolldown>img {
+    width: 20px;
+    height: 20px;
+    border: none;
+
+}
+
+.body {
+    background-color: #e7e6e6;
+    padding-top: 100px;
+    padding-left: 150px;
+    width: 100%;
+    display: flex;
+}
+
+.part1 {
+    top: 0;
+    left: 0px;
+    width: 50%;
+
+}
+
+#click {
+    width: 80px;
+    height: 80px;
+
+}
+
+.part1>div>h1 {
+    font-size: 80px;
+    width: 70%;
+    line-height: 100px;
+}
+
+#letsee {
+    color: rgb(105, 105, 105);
+    width: 45%;
+    margin-top: 20px;
+}
+
+#bodyreadour {
+    margin-top: 80px;
+}
+
+#bodyreadour>h1 {
+    font-size: 60px;
+    width: 50%;
+    line-height: 80px;
+}
+
+#clickdown {
+    width: 30px;
+    height: 40px;
+    border: none;
+}
+
+#bodyreadour>img {
+    width: 500px;
+    margin-top: 25px;
+}
+
+.part2 {
+    width: 50%;
+    right: 0px;
+}
+
+
+.Plan>h3 {
+    font-size: 60px;
+    width: 50%;
+
+}
+
+.Plan {
+    width: 90%;
+    height: 200px;
+    border-bottom: 1px solid rgb(105, 105, 105);
+    margin-top: 350px;
+
+}
+
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.step {
+    color: rgb(105, 105, 105);
+
+}
+
+.lorem {
+    right: 0;
+    color: rgb(105, 105, 105);
+
+    width: 50%;
+}
+
+.Plan2 {
+    width: 90%;
+    height: 220px;
+    border-bottom: 1px solid rgb(105, 105, 105);
+    margin-top: 20px;
+}
+
+.Plan2>h3 {
+    font-size: 60px;
+    width: 50%;
+}
+
+.bodyfoot {
+    background-color: #e7e6e6;
+    width: 100%;
+    padding: 20px 150px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.bodyfootcontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 300px;
+
+}
+
+.bodyfootcontent>img {
+    height: 55px;
+}
+
+.bodyfootcontent>span {
+    color: rgb(105, 105, 105);
+    font-size: 20px;
+    padding: 10px 35px;
+}
+
+.bodyfootcontent>h4 {
+    font-size: 35px;
+}
+
+.bodyfootcontent>p {
+    color: rgb(105, 105, 105);
+}
+
+.content-available {
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+
+}
+
+.available {
+    padding: 150px 0;
+    height: 400px;
+    width: 100%;
+}
+
+.available>span {
+    color: rgb(255, 115, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.available>h3 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.california {
+    margin-top: 20px;
+    margin-left: 200px;
+    color: white;
+    font-size: 50px;
+    width: 50%;
+
+}
+
+.california>a>h4 {
+    margin: 60px 0px;
+}
+
+.california>a {
+    text-decoration: none;
+    color: white;
+}
+
+.california>a:hover {
+    color: rgb(255, 115, 0);
+}
+
+.piccon {
+    margin-top: 20px;
+
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    height: 600px;
+    top: 450px;
+}
+
+
+.piccon>p {
+    color: rgb(105, 105, 105);
+    font-size: 20px;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.piccon>img {
+    width: 500px;
+
+}
+
+.content-seeclaw {
+    background-color: #e7e6e6;
+    width: 100%;
+    height: 500px;
+    z-index: 20;
+}
+
+.our {
+    width: 100%;
+    height: 300px;
+
+}
+
+.our>span {
+    color: rgb(255, 115, 0);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.our>h3 {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.office {
+    position: absolute;
+    height: 440px;
+    margin: 0 80px;
+    overflow-x: scroll;
+    display: flex;
+    z-index: 10;
+    width: 95%;
+}
+
+
+.office::-webkit-scrollbar {
+    background-color: #575757;
+    height: 10px;
+    border-radius: 10px;
+}
+
+
+.office::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.office>img {
+    height: 400px;
+    margin: 0 20px;
+}
+
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 800px;
+
+}
+
+footer>div {
+    display: flex;
+    width: 100%;
+    padding-top: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.letwork {
+    flex: 1;
+    color: white;
+    line-height: 150px;
+    font-size: 90px;
+    width: 100%;
+}
+
+.letwork2 {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letwork2>p {
+    margin: 30px 0;
+    color: rgb(105, 105, 105);
+    font-size: 20px;
+
+}
+
+#arrows2 {
+    width: 120px;
+    height: 120px;
+    margin: 30px 0;
+}
+
+.lettalk2 {
+    border: 2px solid rgb(255, 115, 0);
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.lettalk2:hover {
+    background-color: rgb(255, 115, 0);
+    color: black;
+    cursor: pointer;
+}
